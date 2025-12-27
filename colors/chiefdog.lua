@@ -19,7 +19,7 @@ local c = {
   constant    = "#d9ba73",
   hint        = "#8ebeec",
   cursor      = "#272727",
-  selection   = "#525252",
+  selection   = "#303030", --
   search      = "#333333",
   error       = "#ff7676",
   -- TODO: reuse the existing colors
