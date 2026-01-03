@@ -1,14 +1,17 @@
 # chiefdog.nvim
-A minimalist, _almost_ monochrome theme for Neovim. Named after me, for me, by me.
+A minimalistic theme for Neovim, written in Lua.
 
-Because I cannot stand the [Christmas lights galore](https://tonsky.me/blog/syntax-highlighting/) that most themes are, and because I thought it would be more fun to make yet another one, inspired by others, barely different, but just right. 
+There are others like this. I just wanted to make something specifically for myself.
 
-Supports a few plugins, currently the ones I use, maybe will add support for more later if I find it necessary. 
+Supports a few plugins, may add support for more later if needed. 
 
-Your mileage may vary depending on the quality and brightness of the screen you use. 
-<img width="1495" height="903" alt="image" src="https://github.com/user-attachments/assets/32a84d2b-90c2-4e5d-9bdc-7f54934364f1" />
+## Example:
+<img width="1487" height="916" alt="image" src="https://github.com/user-attachments/assets/5c118fcf-b30a-4606-8200-fdfaba4d3993" />
 
-## Installation
+> [!NOTE]
+> Developed on a 14" XDR retina display, your mileage may vary depending on the quality and brightness of the screen you use. 
+
+## Installation:
 
 **lazy.nvim**:
 
@@ -39,3 +42,6 @@ vim.cmd("colorscheme chiefdog")
 - [mini.pick](https://github.com/nvim-mini/mini.pick)
 - [oil.nvim](https://github.com/stevearc/oil.nvim)
 - [snacks.nvim](https://github.com/folke/snacks.nvim)
+
+## Alternatives:
+- [vim-dark](https://github.com/thiago-negri/vim-dark)
