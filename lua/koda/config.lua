@@ -1,11 +1,11 @@
--- lua/chiefdog/config.lua
+-- lua/koda/config.lua
 local M = {}
 
 M.defaults = {
-	transparent = false,
-	italics = true,
-	style = "original",
-	overrides = { palette = {}, groups = {} },
+	bold = true,
+	italic = false,
+	transparency = false,
+	colors = {},
 }
 
 M.options = vim.deepcopy(M.defaults)
