@@ -36,6 +36,7 @@ end
 ---@param colors koda.Palette
 ---@param opts koda.Config
 ---@return koda.Highlights
+---@return table
 function M.setup(colors, opts)
   -- Always laod base groups
   local groups = {
@@ -107,7 +108,7 @@ function M.setup(colors, opts)
   end
   opts.on_highlights(hl, colors)
 
-  return hl, groups
+  return hl, groups -- return groups table for testing purposes
 end
 
 return M
