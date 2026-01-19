@@ -98,7 +98,7 @@ require("koda").setup({
     colors = {
         bg        = "#101010", -- editor background
         fg        = "#b0b0b0", -- primary text color
-        dim       = "#50585d", -- line numbers, inlay hints
+        dim       = "#50585d", -- markdown codeblock
         line      = "#272727", -- line highlights
         keyword   = "#777777", -- language syntax
         comment   = "#50585d", -- code comments
