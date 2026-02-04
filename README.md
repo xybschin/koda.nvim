@@ -177,3 +177,7 @@ some_plugin.error = koda.blend(colors.danger, colors.bg, 0.3) -- blends two colo
 ## Language support
 
 Most languages have sensible defaults thanks to Neovim's built-in queries, so I've opted not to add anything language-specific to keep the footprint smaller. Feel free to open an issue.
+
+## Extras
+
+Extra color configs for [WezTerm](extras/wezterm/), can be found in [extras](extras/). To use them, refer to their respective documentation.
