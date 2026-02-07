@@ -117,6 +117,7 @@ require("koda").setup({
         emphasis   = "#ffffff",
         func       = "#ffffff",
         string     = "#ffffff",
+        char       = "#ffffff",
         const      = "#d9ba73",
         highlight  = "#458ee6",
         info       = "#8ebeec",
@@ -151,6 +152,7 @@ require("koda").setup({
   colors = {
     func = "#4078F2", -- changes the color of functions
     keyword = "#A627A4", -- changes the color of keywords
+    char = "#f2a4db", -- make characters pop out more by adding a different color
   },
 
   on_highlights = function(hl, c)
