@@ -9,11 +9,11 @@ function M.get_hl(c)
     MiniJump2dSpot            = { fg = c.const },
     MiniIconsGrey             = { fg = c.fg },
     MiniIconsAzure            = { fg = c.emphasis },
-    MiniIconsBlue             = { fg = c.fg },
+    MiniIconsBlue             = { fg = c.info },
     MiniIconsCyan             = { fg = c.info },
     MiniIconsGreen            = { fg = c.success },
     MiniIconsOrange           = { fg = c.warning },
-    MiniIconsPurple           = { fg = c.orange },
+    MiniIconsPurple           = { fg = c.pink },
     MiniIconsRed              = { fg = c.danger },
     MiniIconsYellow           = { fg = c.const },
   }
